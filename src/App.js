@@ -15,9 +15,9 @@ class App extends Component{
       <Header></Header>
       <Sobre name={this.props.name} age="28" email="fulano@gmail.com" text="Projeto feito com React em Página única!"></Sobre>
       <Serviços></Serviços>
-      <Contato></Contato>
+      <Contato text={this.props.telefone} text2={this.props.twitter}></Contato>
       <Parceiros></Parceiros>
-      <Footer className="Footer"></Footer>
+      <Footer className="pé"></Footer>
       </div>
     )
   }

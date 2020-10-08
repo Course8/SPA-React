@@ -26,6 +26,11 @@ class Sobre extends Component{
     }
 
     render(){
+        let list= [
+            {name: "fulano", email: "seuemail@gmail.com"},
+            {name: "ciclano", email: "outroemail@gmail.com"}
+        ]
+
         return(
             <div id="sobre py-4">
                 <h2 className="titles">
@@ -43,10 +48,5 @@ class Sobre extends Component{
         )
     }
 }
-
-let list= [
-    {name: "fulano", email: "seuemail@gmail.com"},
-    {name: "ciclano", email: "outroemail@gmail.com"}
-]
 
 export default Sobre
