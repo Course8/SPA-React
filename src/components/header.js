@@ -15,7 +15,7 @@ import '../App.css';
 class Header extends Component{
     render(){
         return(
-            <header>
+            <header className="topo py-4">
                 <nav>
                     <a href="">Home</a>
                     <a> </a>
