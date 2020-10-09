@@ -13,7 +13,7 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-      <Header></Header>
+      <Header img={twitterIMG}></Header>
       <Sobre name={this.props.name} age="28" email="fulano@gmail.com" text="Projeto feito com React em Página única!"></Sobre>
       <Serviços></Serviços>
       <Contato text="Telefone: (51) 99257-8760" text2="Twitter: @cursoito"></Contato>

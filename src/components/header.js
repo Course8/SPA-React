@@ -13,6 +13,13 @@ import '../App.css';
 // }
 
 class Header extends Component{
+    constructor(props){
+        super();
+        this.state = {
+            img: props.img,
+        }
+    }
+
     greetins(props){
         if(props.name == ""){
             return <p>Bem vindo Visitante!</p>
@@ -45,7 +52,8 @@ class Header extends Component{
                     </div>
 
                     <div className="col-3">
-                    <img src="twitterIMG"></img>
+                        <img className="img" src={this.state.img}></img>
+                        <span className="textos2">@cursoito</span>
                     </div>
                 </div>
             </header>

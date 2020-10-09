@@ -15,10 +15,6 @@ class Parceiros extends Component{
                 </p>
                 
                 <p className="textos">
-                    Tecnosinos
-                </p>
-                
-                <p className="textos">
                     Prof. Edward
                 </p>
             </div>
