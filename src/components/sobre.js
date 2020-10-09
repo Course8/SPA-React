@@ -32,8 +32,8 @@ class Sobre extends Component{
         ]
 
         return(
-            <div id="sobre py-4">
-                <h2 className="titles">
+            <div id="sobre" className="pt-5">
+                <h2 className="titles pt-5">
                     Sobre
                 </h2>
                     <p className="textos">

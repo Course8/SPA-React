@@ -13,10 +13,25 @@ import '../App.css';
 // }
 
 class Header extends Component{
+    greetins(props){
+        if(props.name == ""){
+            return <p>Bem vindo Visitante!</p>
+        } else {
+            return <p>Bem vindo {props.name}!</p>
+        }
+    }
+    
     render(){
         return(
-            <header className="topo py-4">
-                <nav>
+
+            <header className="topo py-2 mb-4">
+                <div className="row">
+                    <div className="col-3">
+                    <span class="greetings">BEM VINDO VISITANTE!</span>
+                    </div>
+
+                    <div className="col-6">
+                    <nav className="">
                     <a href="">Home</a>
                     <a> </a>
                     <a href="">Sobre</a>
@@ -26,7 +41,13 @@ class Header extends Component{
                     <a href="">Serviços</a>
                     <a> </a>
                     <a href="">Parceiros</a>
-                </nav>
+                    </nav>
+                    </div>
+
+                    <div className="col-3">
+                    <img src="twitterIMG"></img>
+                    </div>
+                </div>
             </header>
         )
     }

@@ -5,24 +5,36 @@
 .pé{
   bottom:0;
   text-align: center;
-}
-
-.do{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cinzel', serif;
+  border: 5px solid #2c2c3c;
+  background-color: #1c1f27;
 }
 
 .topo{
-  font-size: 30px;
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+  border: 10px solid #2c2c3c;
+  background-color: #1c1f27;
+  width: 100%;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  top: 0;
+  z-index: 100;
+  position: fixed;
 }
 
 .titles{
   color: #000000;
   font-size: 50px;
+  font-style: italic;
+  text-decoration: underline #1c1f27;
 }
 
 .textos{
   font-size: 20px;
   color: #666666;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .botões{
@@ -31,4 +43,25 @@
 
 #root{
   background-color: #282c34;
+  min-height: 100vh;
+}
+
+.textos2{
+  font-size: 25px;
+  color: #434377;
+  font-style: oblique;
+}
+
+.direitos{
+  font-size: 25px;
+  color: #3232ad
+}
+
+.margin {
+  margin-top: 3rem;
+}
+
+.greetings{
+  font-size: 22px;
+  color: #377be0;
 }
